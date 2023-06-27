@@ -4,6 +4,11 @@
 # MortgageModel
 
 <!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Codecov test
+coverage](https://codecov.io/gh/aidangibbons/MortgageModel/branch/main/graph/badge.svg)](https://app.codecov.io/gh/aidangibbons/MortgageModel?branch=main)
 <!-- badges: end -->
 
 The goal of MortgageModel is to …
@@ -21,7 +26,7 @@ You can install the development version of MortgageModel like so:
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(MortgageModel)
+#library(MortgageModel)
 ## basic example code
 ```
 

@@ -46,7 +46,7 @@ golem::add_sass_file("custom")
 ## Add internal datasets ----
 ## If you have data in your package
 usethis::use_data_raw(name = "my_dataset", open = FALSE)
-
+usethis::use_data_raw(name = "ui_config")
 ## Tests ----
 ## Add one line by test you want to create
 usethis::use_test("app")
@@ -75,29 +75,12 @@ usethis::use_github()
 usethis::use_github_action()
 # Chose one of the three
 # See https://usethis.r-lib.org/reference/use_github_action.html
-usethis::use_github_action_check_release()
+# usethis::use_github_action_check_release()
 usethis::use_github_action_check_standard()
-usethis::use_github_action_check_full()
+# usethis::use_github_action_check_full()
 # Add action for PR
 usethis::use_github_action_pr_commands()
 
-# Travis CI
-usethis::use_travis()
-usethis::use_travis_badge()
-
-# AppVeyor
-usethis::use_appveyor()
-usethis::use_appveyor_badge()
-
-# Circle CI
-usethis::use_circleci()
-usethis::use_circleci_badge()
-
-# Jenkins
-usethis::use_jenkins()
-
-# GitLab CI
-usethis::use_gitlab_ci()
 
 # You're now set! ----
 # go to dev/03_deploy.R
