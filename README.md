@@ -9,6 +9,9 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![Codecov test
 coverage](https://codecov.io/gh/aidangibbons/MortgageModel/branch/main/graph/badge.svg)](https://app.codecov.io/gh/aidangibbons/MortgageModel?branch=main)
+[![R-CMD-check](https://github.com/aidangibbons/MortgageModel/workflows/R-CMD-check/badge.svg)](https://github.com/aidangibbons/MortgageModel/actions)
+[![Travis build
+status](https://travis-ci.com/aidangibbons/MortgageModel.svg?branch=main)](https://travis-ci.com/aidangibbons/MortgageModel)
 <!-- badges: end -->
 
 The goal of MortgageModel is to …
