@@ -20,8 +20,16 @@ attachment::att_amend_desc()
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+golem::add_module(name = "input_MortgageDetails", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "input_InterestRates", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "input_HousingPosition", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "input_Finances", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "input_Costs", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "output_TotalAssets", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "output_MonthlyHeadroom", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "output_PaymentSplit", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "output_Tables", with_test = TRUE, open = F) # Name of the module
+golem::add_module(name = "output_SummaryText", with_test = TRUE, open = F) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
