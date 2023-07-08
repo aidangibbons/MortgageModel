@@ -1,0 +1,13 @@
+[ ] - Implement shinytest? - maybe
+[ ] - print when a reactive is updated
+[ ] - assign all user inputs in server
+[ ] - add in external functions
+[ ] - make outputs functional
+[ ] - add tooltips to explain functions
+[ ] - add tooltips for resources (e.g. interest rate forecast)
+[ ] - change all functions to do conversions (e.g. years to months) within function, not server
+[ ] - mortgage calculation cleaning if unable to satisfy initial or ongoing costs
+
+checks
+[ ] - is rental income working correctly?
+[ ] - make sure all check_numeric_input() calls have an alternative present

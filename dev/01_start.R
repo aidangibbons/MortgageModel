@@ -46,6 +46,9 @@ usethis::use_code_of_conduct(contact = "Golem User")
 usethis::use_lifecycle_badge("Experimental")
 usethis::use_news_md(open = FALSE)
 
+## Add packages ----
+attachment::att_from_rscripts()
+
 ## Use git ----
 usethis::use_git()
 
@@ -55,8 +58,12 @@ golem::use_recommended_tests()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon() # path = "path/to/ico". Can be an online file.
-# golem::remove_favicon() # Uncomment to remove the default favicon
+golem::remove_favicon() # Uncomment to remove the default favicon
+favic_img <- "../Portfolio/www/mortgage_model.png"
+favic_ico <- paste0(tools::file_path_sans_ext("../Portfolio/www/mortgage_model.png"), ".ico")
+magick::image_write(magick::image_read(favic_img), favic_ico)
+golem::use_favicon(favic_ico) # path = "path/to/ico". Can be an online file.
+
 
 ## Add helper functions ----
 golem::use_utils_ui(with_test = TRUE)

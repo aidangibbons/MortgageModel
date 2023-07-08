@@ -6,3 +6,6 @@
 inst/doc
 /doc/
 /Meta/
+fly.toml
+/*Dockerfile*
+deploy/*.tar.gz

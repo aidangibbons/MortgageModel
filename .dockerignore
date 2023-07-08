@@ -1,0 +1,17 @@
+# flyctl launch added from .github\.gitignore
+.github\**\*.html
+
+# flyctl launch added from .gitignore
+**\.Rproj.user
+**\.Rhistory
+**\.Rdata
+**\.httr-oauth
+**\.DS_Store
+**\inst\doc
+doc
+Meta
+
+# flyctl launch added from vignettes\.gitignore
+vignettes\**\*.html
+vignettes\**\*.R
+fly.toml

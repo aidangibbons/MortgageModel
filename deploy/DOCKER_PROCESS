@@ -1,0 +1,13 @@
+cd deploy
+open docker desktop
+docker build -f Dockerfile_base --progress=plain -t mortgagemodel_base .
+docker build -f Dockerfile --progress=plain -t mortgagemodel:latest .
+docker run -dp 80:80 mortgagemodel:latest
+
+docker tag mortgagemodel aidangibbons/mortgagemodel:latest
+docker push aidangibbons/mortgagemodel:latest
+
+
+# then go to 127.0.0.1:80
+fly launch
+fly deploy -i aidangibbons/mortgagemodel

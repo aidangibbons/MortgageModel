@@ -403,3 +403,22 @@ make_action_button <- function(tag, inputId = NULL) {
 #'
 #'   return(HTML(html))
 #' }
+
+
+#' @title hr tag with black line
+#' @description Produce a `<hr>` tag with a solid black line, rather than grey.
+#' @param style Style changes to `<hr>` tag, adjust this to change the style. Default: 'border-top: 1px solid #000000;'
+#' @param ... Parameters to be passed to `hr()`
+#' @return `hr()` shiny tag with a black line
+#' @details DETAILS
+#' @examples
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @rdname hr2
+#' @export
+hr2 <- function(style = "border-top: 1px solid #606060;", ...) {
+  hr(style = style, ...)
+}
